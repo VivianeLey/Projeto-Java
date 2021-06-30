@@ -12,7 +12,7 @@ public class Pessoa {
 	}
 	
 		public Pessoa(double salario) {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 		public String getNome() {
@@ -43,14 +43,14 @@ public class Pessoa {
 
 		public Professor(String nome, String cpf, int idade) {
 			super(nome, cpf, idade);
-			// TODO Auto-generated constructor stub
+			
 		}}
 
 	public class Aluno extends Pessoa{
 
 		public Aluno(String nome, String cpf, int idade) {
 			super(nome, cpf, idade);
-			// TODO Auto-generated constructor stub
+			
 		}
 		
 	}
