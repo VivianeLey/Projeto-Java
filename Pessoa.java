@@ -6,12 +6,15 @@ public class Pessoa {
 	private int idade;
 	
 	public Pessoa(String nome, String cpf, int idade) {
-		super();
 		this.nome = nome;
 		this.cpf = cpf;
 		this.idade = idade;
 	}
 	
+		public Pessoa(double salario) {
+		// TODO Auto-generated constructor stub
+	}
+
 		public String getNome() {
 		return nome;
 	}

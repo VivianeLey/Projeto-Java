@@ -6,22 +6,22 @@ public class TestaAluno {
 		RepositorioAlunosArray local  = new RepositorioAlunosArray(3);
 		
 		//Criação de Objeto
-		Curso curso1 = new Curso();
+		Curso curso1 = new Curso(001,"Análise e Desenvolvimento de Sistemas");
 		Curso curso2 = new Curso(002,"Psicologia");
 		
-		Aluno aluno1 = new Aluno();
+		Aluno aluno1 = new Aluno("Maria Fernanda","12345678-9",22, curso1);
 		Aluno aluno2 = new Aluno("José Henrique","34456433-9",20, curso2);
 		
-		curso1.setCodigo(001);
-		curso1.setNome("Análise e Desenvolvimento de Sistemas");
+		//curso1.setCodigo(001);
+		//curso1.setNome("Análise e Desenvolvimento de Sistemas");
 		  
 		//curso2.setCodigo(002);
 		//curso2.setNome("Psicologia");
 		
-		aluno1.setNome("Maria Fernanda");
+		/*aluno1.setNome("Maria Fernanda");
 		aluno1.setCpf("12345678-9");
 		aluno1.setIdade(22);
-		aluno1.setCurso(curso1);
+		aluno1.setCurso(curso1); */
 		
 		//aluno2.setNome("José Henrique");
 		//aluno2.setCpf("34456433-9");
