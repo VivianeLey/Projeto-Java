@@ -18,6 +18,10 @@ public class Aluno extends Pessoa {
 		this.curso = curso;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString()  
+				+ "\n" + "Curso: " 
+				+ getCurso().getNome();
 
 }
