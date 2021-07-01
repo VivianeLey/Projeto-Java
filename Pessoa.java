@@ -1,21 +1,18 @@
-
 public class Pessoa {
-	
+	//Atributos da classe
 	private String nome;
 	private String cpf;
 	private int idade;
 	
+	//Construtor
 	public Pessoa(String nome, String cpf, int idade) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.idade = idade;
 	}
 	
-		public Pessoa(double salario) {
-		
-	}
-
-		public String getNome() {
+	//Métodos Get e Set
+	public String getNome() {
 		return nome;
 	}
 
@@ -37,21 +34,5 @@ public class Pessoa {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
-	}
-	
-	public class Professor extends Pessoa{
-
-		public Professor(String nome, String cpf, int idade) {
-			super(nome, cpf, idade);
-			
-		}}
-
-	public class Aluno extends Pessoa{
-
-		public Aluno(String nome, String cpf, int idade) {
-			super(nome, cpf, idade);
-			
-		}
-		
 	}
 }
