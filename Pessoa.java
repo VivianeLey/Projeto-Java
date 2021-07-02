@@ -1,17 +1,20 @@
+
 public class Pessoa {
-	//Atributos da classe
+	
 	private String nome;
 	private String cpf;
 	private int idade;
 	
-	//Construtor
+	public Pessoa() {
+		
+	}
+	
 	public Pessoa(String nome, String cpf, int idade) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.idade = idade;
 	}
 	
-	//Métodos Get e Set
 	public String getNome() {
 		return nome;
 	}
@@ -35,4 +38,12 @@ public class Pessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+
+	@Override
+	public String toString() {
+		return "\n" + "Nome: " + getNome() + "\n" + "CPF: " + getCpf() + "\n" + "Idade: " + getIdade();
+	}
+	
+			
+	
 }

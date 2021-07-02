@@ -1,36 +1,38 @@
 
 public class Curso {
 
-	
-	private int codigo;
+	private double codigo;
 	private String nome;
-	
-	public Curso(int codigo, String nome) {
-		this.codigo = codigo; 
-		this.nome = nome; 
-		
-	}
+
 	public Curso() {
-		
+
 	}
-	
-	//método para recuperar o objeto
-	public int getCodigo() {
-		return codigo; 
+
+	public Curso(double codigo, String nome) {
+		this.codigo = codigo;
+		this.nome = nome;
+
 	}
-	
-	//método para definir o objeto
-	public void setCodigo(int codigo) {
+
+	public double getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(double codigo) {
 		this.codigo = codigo;
 	}
-	
+
 	public String getNome() {
 		return nome;
 	}
-	
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "Codigo do curso: " + getCodigo() + "\n" + "Nome do curso: " + getNome() + "\n";
+	}
+
 }
